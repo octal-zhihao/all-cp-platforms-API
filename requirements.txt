@@ -2,4 +2,4 @@ Flask
 Flask-RESTful
 requests-html
 requests
-html-clean
+lxml_html_clean
