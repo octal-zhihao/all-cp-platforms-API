@@ -15,7 +15,6 @@ itsdangerous==1.1.0
 Jinja2==2.11.3
 l==0.11.0
 lxml==4.6.3
-lxml_html_clean
 MarkupSafe==1.1.1
 parse==1.15.0
 pyee==7.0.2
