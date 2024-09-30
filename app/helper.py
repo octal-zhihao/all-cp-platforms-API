@@ -41,7 +41,7 @@ class User:
                 data[attr]=val
                 if attr == 'Highest Rating':
                     val = val.split()[0]
-                    data[attr]=val
+                    data['HighestRating']=val
         return data
     def nowcoder(self):
         session = HTMLSession()
