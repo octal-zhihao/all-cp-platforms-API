@@ -1,7 +1,9 @@
 from flask import Flask,render_template
 from flask_restful import Resource,Api
 from app.helper import User, UsernameError,PlatformError
+from flask_cors import CORS
 app = Flask(__name__)
+CORS(app)  # 允许所有来源访问
 api = Api(app)
 
 # use "foreman start" to run locally

@@ -3,3 +3,4 @@ Flask-RESTful
 requests-html
 requests
 lxml_html_clean
+flask-cors
