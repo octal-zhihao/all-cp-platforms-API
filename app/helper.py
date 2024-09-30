@@ -136,7 +136,7 @@ class User:
         return data
     def leetcode(self):
         session = HTMLSession()
-        url = "https://leetcode.com/{}/".format(self.__username)
+        url = "https://leetcode.com/u/{}/".format(self.__username)
         r = session.get(url,timeout=10)
         if r.status_code!=200:
             raise UsernameError('User not found')
